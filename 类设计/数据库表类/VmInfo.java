@@ -10,7 +10,7 @@ public class VmInfo extends BaseTable {
 	public String cpu_info;
 	public String mem_info;
 	public String disk_info;
-
+	public Date build_time;
 	public VmInfo() {
 	}
 
@@ -24,7 +24,7 @@ public class VmInfo extends BaseTable {
 		cpu_info = str[6];
 		mem_info = str[7];
 		disk_info = str[8];
-
+		build_time.date=str[9];
 	}
 
 	@Override
