@@ -4,8 +4,8 @@
 
 <Workspace>
 	<Local Expanded="Yes">
-		<Model Expanded="Yes" ID="{DAC202DD-FDA3-41F1-AD10-92BD9B0680E2}" Name="APM" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="APM.prj"/>
-		<Model Expanded="Yes" ID="{90D77D79-5A51-41E2-A5A3-F1A066CFE018}" Name="ConceptualDataModel_1" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="ConceptualDataModel_.pdm"/>
+		<Model Expanded="Yes" ID="{DAC202DD-FDA3-41F1-AD10-92BD9B0680E2}" Loaded="No" Name="APM" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="APM.prj"/>
+		<Model Expanded="Yes" ID="{90D77D79-5A51-41E2-A5A3-F1A066CFE018}" Name="ConceptualDataModel_1" Selected="Yes" Type="{CDE44E21-9669-11D1-9914-006097355D9B}" URL="ConceptualDataModel_.pdm"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>

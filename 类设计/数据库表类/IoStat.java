@@ -1,6 +1,6 @@
 package tables_structure;
 
-public class IoInfo extends BaseTable{
+public class IoStat extends BaseTable{
 	public String io_id;
 	public String vm_id;
 	public Date io_time;
@@ -9,7 +9,7 @@ public class IoInfo extends BaseTable{
 	public float wtps; 
 	public float bwrtn;
 	public float bread;
-    public IoInfo(){
+    public IoStat(){
     }
     public void setAll(String[] str)
     {
@@ -24,6 +24,6 @@ public class IoInfo extends BaseTable{
     }
 	@Override
 	public String getTableName() {
-		return "ioInfo";
+		return "ioStat";
 	}
 }

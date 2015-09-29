@@ -1,28 +1,28 @@
 package tables_structure;
 
 public class CpuInfo extends BaseTable{
-	public String cpu_id;
 	public String vm_id;
-	public Date cpu_time;
-	public float user;
-	public float nice;
-	public float system; 
-	public float iowait;
-	public float steal;
-	public float idle;
+	public int chche_size;
+	public int cpu_cores;
+	public int family;
+	public float mhz;
+	public int model; 
+	public String model_name;
+	public int stepping;
+	public String vendor_id;
     public CpuInfo(){
     }
     public void setAll(String[] str)
     {
-    	cpu_id=str[0];
-    	vm_id=str[1];
-    	cpu_time.date=str[2];
-    	user=Float.parseFloat(str[3]);
-    	nice=Float.parseFloat(str[4]);
-    	system=Float.parseFloat(str[5]); 
-    	iowait=Float.parseFloat(str[6]);
-    	steal=Float.parseFloat(str[7]);
-    	idle=Float.parseFloat(str[8]);
+    	vm_id=str[0];
+    	chche_size=Integer.parseInt(str[1]);
+    	cpu_cores=Integer.parseInt(str[2]);
+    	family=Integer.parseInt(str[3]);
+    	mhz=Float.parseFloat(str[4]);
+    	model=Integer.parseInt(str[5]); 
+    	model_name=(str[6]);
+    	stepping=Integer.parseInt(str[7]);
+    	vendor_id=(str[8]);
     }
 	@Override
 	public String getTableName() {
