@@ -1,0 +1,3 @@
+tables_structure里为表类
+JConnectUser类为连接数据库用的类,封装了增加和查找
+src下为测试类
