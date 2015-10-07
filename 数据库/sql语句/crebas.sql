@@ -160,7 +160,6 @@ create table vmInfo
    cpu_info             varchar(50),
    mem_info             varchar(20),
    disk_info            varchar(20),
-   build_time           datetime comment '创立时间',
    primary key (vm_id)
 );
 
