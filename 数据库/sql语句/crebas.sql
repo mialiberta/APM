@@ -298,8 +298,15 @@ create table vmInfo
    ip                   varchar(15) comment 'ip地址',
    hostname             varchar(50),
    state                int,
+<<<<<<< HEAD
    operation_system     varchar(50) comment '操作系统',
    build_time           datetime,
+=======
+   opreation_system     varchar(50) comment '操作系统',
+   cpu_info             varchar(50),
+   mem_info             varchar(20),
+   disk_info            varchar(20),
+>>>>>>> master
    primary key (vm_id)
 );
 
